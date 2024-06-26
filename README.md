@@ -1,4 +1,4 @@
-# Bienvenido a la pagina web de Tienda Online ​💻​
+# Proyecto Final - JavaScript​ Coderhouse 💻​
 
 ## Descripción
 
