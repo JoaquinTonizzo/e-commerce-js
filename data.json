@@ -1,0 +1,74 @@
+[
+    {
+        "id": "celular-01",
+        "marca": "samsung",
+        "nombre": "Samsung S24",
+        "precio": 900,
+        "imagen": "./../img/s-24.jpg",
+        "categoria": "celulares"
+    },
+    {
+        "id": "celular-02",
+        "marca": "apple",
+        "nombre": "Iphone 15",
+        "precio": 1000,
+        "imagen": "./../img/iphone-15.jpg",
+        "categoria": "celulares"
+    },
+    {
+        "id": "celular-03",
+        "marca": "motorola",
+        "nombre": "Motorola Razr 40",
+        "precio": 700,
+        "imagen": "./../img/razr-40.jpg",
+        "categoria": "celulares"
+    },
+    {
+        "id": "Notebook-01",
+        "marca": "samsung",
+        "nombre": "Notebook Samsung",
+        "precio": 600,
+        "imagen": "./../img/notebook-samsung.jpg",
+        "categoria": "notebooks"
+    },
+    {
+        "id": "Notebook-02",
+        "marca": "hp",
+        "nombre": "Notebook HP",
+        "precio": 400,
+        "imagen": "./../img/notebook-hp.jpg",
+        "categoria": "notebooks"
+    },
+    {
+        "id": "Notebook-03",
+        "marca": "lenovo",
+        "nombre": "Notebook Lenovo",
+        "precio": 500,
+        "imagen": "./../img/notebook-lenovo.jpg",
+        "categoria": "notebooks"
+    },
+    {
+        "id": "Televisor-01",
+        "marca": "lg",
+        "nombre": "TV LG",
+        "precio": 250,
+        "imagen": "./../img/tv-samsung.jpg",
+        "categoria": "televisores"
+    },
+    {
+        "id": "Televisor-02",
+        "marca": "samsung",
+        "nombre": "TV Samsung",
+        "precio": 250,
+        "imagen": "./../img/tv-lg.jpg",
+        "categoria": "televisores"
+    },
+    {
+        "id": "Televisor-03",
+        "marca": "tcl",
+        "nombre": "TV TCL",
+        "precio": 200,
+        "imagen": "./../img/tv-tcl.jpg",
+        "categoria": "televisores"
+    }
+]

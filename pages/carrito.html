@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/styles.css">
+    <link rel="icon" href="./../img/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="./../js/main.js"></script>
+    <script defer src="./../js/carrito.js"></script>
+    <title>Tienda Online | Carrito</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid padding-0">
+                <a class="navbar-brand" href="./../index.html"><img class="logo" src="./../img/logo-tienda.png"
+                        alt="Logo"></a>
+                <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menu-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 menu-ul pe-2">
+                        <li class="nav-item">
+                            <a class="texto" href="./../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="texto" href="./../pages/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="texto" href="./../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./../pages/carrito.html" class="carrito-link">
+                                <img class="carrito-icono" src="./../img/carrito.png" alt="Carrito Blanco">
+                                <span class="contador-carrito"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="carrito">
+        <h1>Carrito</h1>
+        <p>Aquí encontrarás un resumen de los artículos que has seleccionado para comprar.</p>
+        <p id="carrito-vacio" class="alerta">No hay productos en el carrito.</p>
+        <div id="contenedor-productos" class="desactivado">
+            
+        </div>
+        <div id="carrito-elementos" class="desactivado">
+            <p id="total-carrito">Precio final: </p>
+            <button id="vaciar-carrito" class="btn">Vaciar carrito</button>
+            <button id="comprar-carrito" class="btn">Comprar carrito</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com" target="_blank"><img src="./../img/instagram.png" alt="Instagram Logo"></a>
+            <a href="https://www.Facebook.com" target="_blank"><img src="./../img/facebook.png" alt="FaceBook Logo"></a>
+            <a href="https://www.WhatsApp.com" target="_blank"><img src="./../img/whatsapp.png" alt="Whatsapp Logo"></a>
+            <a href="https://www.Telegram.com" target="_blank"><img src="./../img/telegram.png" alt="Telegram Logo"></a>
+        </div>
+        <a href="#header">&reg; Tienda Online</a>
+        <a href="#header"><img src="./../img/flecha-hacia-arriba.png" alt="Flecha hacia arriba"></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
