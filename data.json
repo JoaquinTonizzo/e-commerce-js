@@ -52,7 +52,7 @@
         "marca": "lg",
         "nombre": "TV LG",
         "precio": 250,
-        "imagen": "./../img/tv-samsung.jpg",
+        "imagen": "./../img/tv-lg.jpg",
         "categoria": "televisores"
     },
     {
@@ -60,7 +60,7 @@
         "marca": "samsung",
         "nombre": "TV Samsung",
         "precio": 250,
-        "imagen": "./../img/tv-lg.jpg",
+        "imagen": "./../img/tv-samsung.jpg",
         "categoria": "televisores"
     },
     {
