@@ -15,12 +15,6 @@
 - **Frontend:** HTML, CSS, JavaScript.
 - **Librerías y Frameworks:** Bootstrap para el diseño responsive y estilización rápida, SweetAlert para alertas y mensajes interactivos.
 
-## Instalación y Uso
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/JoaquinTonizzo/e-commerce-js.git
-
 ## Contacto
 
 Para más información, puedes contactar a [joaquintonizzo1@gmail.com](mailto:joaquintonizzo1@gmail.com).
