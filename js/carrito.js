@@ -97,15 +97,14 @@ function decrementarCantidadCarrito(e) {
     const id = e.currentTarget.id.replace('decrementar-', '');
     const producto = carrito.find(producto => producto.id === id);
 
-    if (producto.cantidad > 0) {
-        producto.cantidad--;
-        alertProductoEliminado();
-        if (producto.cantidad === 0) {
-            carrito = carrito.filter(item => item.id !== producto.id);
-        } else {
-            actualizarCantidadProductoEnCarrito(id, producto.cantidad);
-        }
-    }
+    producto.cantidad--;
+    alertProductoEliminado();
+    
+    if (producto.cantidad === 0) {
+        carrito = carrito.filter(item => item.id !== producto.id);
+    } 
+    
+    actualizarCantidadProductoEnCarrito(id, producto.cantidad);
     localStorage.setItem("carrito", JSON.stringify(carrito));
     actualizarProductosCarrito();
     actualizarCantidadCarritoEnHeader();
