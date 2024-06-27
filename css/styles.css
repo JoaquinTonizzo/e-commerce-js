@@ -143,6 +143,15 @@ ul {
     margin: 0px 50px;
 }
 
+#contenedor-productos-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0px 50px;
+}
+
 .producto {
     color: black;
     width: 350px;
@@ -176,7 +185,8 @@ ul {
 }
 
 .btn-agregar-carrito,
-.quitar-del-carrito {
+.btn-incrementar,
+.btn-decrementar {
     display: block;
     width: 100%;
     padding: 8px;
@@ -190,20 +200,58 @@ ul {
 }
 
 .btn-agregar-carrito:hover,
-.quitar-del-carrito:hover {
+.btn-incrementar:hover,
+.btn-decrementar:hover {
     background-color: #01448b;
 }
 
 .producto-carrito {
-    max-width: 200px;
+    width: 500px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.producto-carrito .info {
+    width: auto;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.producto-carrito img {
+    max-width: 200px; 
 }
 
 .producto-carrito h2 {
     font-size: 16px;
 }
 
-.producto-carrito p {
-    font-size: 14px;
+.producto-carrito .info p {
+    width: 150px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.botones p {
+    width: 50px;
 }
 
 .alerta {
@@ -403,12 +451,24 @@ footer img:hover {
         margin: 0;
     }
 
-    .producto-carrito { 
+    .producto-carrito {
+        width: 350px;
+    }
+
+    .producto-carrito img {
         width: 150px;
     }
 
-    .producto-carrito h2, .producto-carrito p, .producto-carrito button {
-        font-size: 10px;
+    .producto-carrito h2, .producto-carrito p {
+        font-size: 14px;
+    }
+
+    .producto-carrito .botones p {
+        width: 10px;
+    }
+
+    .producto-carrito .botones button {
+        width: 50px;
     }
 
     .texto-home {
@@ -432,7 +492,7 @@ footer img:hover {
         font-size: 14px;
     }
 
-    h1, h2, a, button {
+    h1, h2, a {
         font-size: 20px;
     }
     
