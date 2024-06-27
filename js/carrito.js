@@ -97,22 +97,18 @@ function decrementarCantidadCarrito(e) {
     const id = e.currentTarget.id.replace('decrementar-', '');
     const producto = carrito.find(producto => producto.id === id);
 
-    producto.cantidad--;
-    alertProductoEliminado()
-
-    if (producto.cantidad === 0) {
-        borrarProductoCarrito(producto);
+    if (producto.cantidad > 0) {
+        producto.cantidad--;
+        alertProductoEliminado();
+        if (producto.cantidad === 0) {
+            carrito = carrito.filter(item => item.id !== producto.id);
+        } else {
+            actualizarCantidadProductoEnCarrito(id, producto.cantidad);
+        }
     }
-
-    actualizarCantidadProductoEnCarrito(id, producto.cantidad);
     localStorage.setItem("carrito", JSON.stringify(carrito));
-    actualizarTotalCarrito();
-    actualizarCantidadCarritoEnHeader();
-}
-
-function borrarProductoCarrito(productoEliminar) { 
-    carrito = carrito.filter(producto => producto.id !== productoEliminar.id);
     actualizarProductosCarrito();
+    actualizarCantidadCarritoEnHeader();
 }
 
 function actualizarCantidadProductoEnCarrito(id, cantidad) {
