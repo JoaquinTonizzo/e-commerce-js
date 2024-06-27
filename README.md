@@ -2,7 +2,7 @@
 
 ## Descripción
 
-**e-commerce-js** es una aplicación de comercio electrónico desarrollada como proyecto final del curso de JavaScript de Coderhouse. Permite a los usuarios explorar una variedad de productos, agregarlos al carrito y gestionar sus compras de manera eficiente y amigable.
+**Ecommerce-JS** es una aplicación de comercio electrónico desarrollada como proyecto final del curso de JavaScript de Coderhouse. Permite a los usuarios explorar una variedad de productos, agregarlos al carrito y gestionar sus compras de manera eficiente y amigable.
 
 ## Funcionalidades 🎮​
 
