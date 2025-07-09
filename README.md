@@ -1,4 +1,4 @@
-# Proyecto Final - JavaScript​ Coderhouse 💻​
+# Proyecto Final - JavaScript​ en Coderhouse 💻​
 
 ## Descripción
 
